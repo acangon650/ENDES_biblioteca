@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AutorTest {
     @Test
     void testAuthorCreation() {
-        Autor autor = new Autor();
+        Autor autor = new Autor(null, null);
         assertNotNull(autor);
     }
 }
